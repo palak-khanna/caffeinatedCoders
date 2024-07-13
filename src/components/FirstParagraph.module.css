@@ -1,0 +1,190 @@
+.juliachangcoaching {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.link {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-12xs-3) 0 var(--padding-12xs-4);
+}
+.container,
+.container1,
+.heading3,
+.link {
+  display: flex;
+  justify-content: flex-start;
+}
+.container,
+.container1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 126px;
+  height: 18.7px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--wwwinstagramcom-mine-shaft);
+}
+.ericahjohnston {
+  left: 126.2px;
+  font-size: var(--wwwinstagramcom-roboto-regular-1389-size);
+  color: inherit;
+  text-decoration: none;
+}
+.ericahjohnston,
+.looks,
+.staceynixonfit {
+  position: absolute;
+  top: 0.3px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.staceynixonfit {
+  left: 234.8px;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1378-size);
+  color: inherit;
+  text-decoration: none;
+}
+.looks {
+  left: 332.9px;
+  color: var(--wwwmyntracom-black);
+  width: 36.7px;
+  height: 18px;
+}
+.canadianSuitDoesnt,
+.likeINeed {
+  margin: 0;
+}
+.likeINeedContainer1 {
+  width: 100%;
+}
+.ilovedenim,
+.likeINeedContainer {
+  position: relative;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.likeINeedContainer {
+  height: 36px;
+  width: 376.4px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.ilovedenim {
+  height: 18px;
+  width: 77px;
+  color: var(--wwwinstagramcom-midnight-blue);
+  text-decoration: none;
+  z-index: 2;
+  margin-left: -152px;
+}
+.thirdParagraph {
+  position: absolute;
+  top: 18.3px;
+  left: 0;
+  width: 376.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--wwwmyntracom-black);
+}
+.secondParagraph {
+  width: 376.4px;
+  height: 54.3px;
+  position: relative;
+  max-width: 100%;
+}
+.time16h {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.link1 {
+  height: 16px;
+  width: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+}
+.button2,
+.buttonReply {
+  height: 16px;
+  width: 34px;
+  position: relative;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1163-size);
+  line-height: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonReply {
+  width: 30px;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+}
+.container2,
+.firstParagraph {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container2 {
+  width: 100%;
+  flex-direction: row;
+  max-width: 391.11px;
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-regular-1181-size);
+  color: var(--wwwinstagramcom-dove-gray);
+}
+.firstParagraph {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs-5);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwinstagramcom-midnight-blue);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+@media screen and (max-width: 450px) {
+  .container2 {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}

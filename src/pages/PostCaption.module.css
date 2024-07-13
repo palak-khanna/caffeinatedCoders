@@ -1,0 +1,199 @@
+.postCaptionChild {
+  border: 0;
+  background-color: #d9d9d9;
+  height: 344px;
+  width: 622px;
+  outline: 0;
+  position: absolute;
+  top: 209px;
+  left: 472px;
+}
+.image29Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 601px;
+  object-fit: cover;
+}
+.image21Icon {
+  height: 93.5px;
+  width: 95px;
+  position: relative;
+  object-fit: cover;
+}
+.sooyo {
+  align-self: stretch;
+  height: 36.5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.image21Parent,
+.sooyoWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.sooyoWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 20.9px;
+  min-width: 204px;
+}
+.image21Parent {
+  width: 429px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.addCaption {
+  width: 337px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.addCaptionIcon,
+.wrapperArrow1Child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.addCaptionIcon {
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.wrapperArrow1Child {
+  z-index: 1;
+  object-fit: contain;
+  left: 1px;
+  transform: scale(Infinity);
+}
+.wrapperArrow1 {
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  width: 42px;
+  height: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addCaptionGroup {
+  align-self: stretch;
+  height: 57px;
+  position: relative;
+}
+.addCaptionParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 80px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.addCaptionParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.jissooInSingapore {
+  height: 81px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.jissooInSingaporeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: var(--font-average);
+}
+.addCaptionContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.addCaptionContainer,
+.addCaptionContainerWrapper,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addCaptionContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 472px;
+  width: 646px;
+  flex-direction: column;
+  gap: 39.5px;
+}
+.postCaption {
+  width: 100%;
+  height: 709px;
+  position: relative;
+  background-color: var(--wwwmyntracom-nero);
+  overflow-y: auto;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--wwwmyntracom-black);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+@media screen and (max-width: 750px) {
+  .addCaption,
+  .jissooInSingapore,
+  .sooyo {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .addCaption,
+  .sooyo {
+    font-size: var(--font-size-3xl);
+  }
+  .addCaptionParent {
+    flex-wrap: wrap;
+  }
+  .jissooInSingapore {
+    font-size: var(--font-size-3xl);
+  }
+  .postCaption {
+    height: auto;
+    min-height: 709;
+  }
+}

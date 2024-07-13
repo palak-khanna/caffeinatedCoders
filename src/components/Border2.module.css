@@ -1,0 +1,198 @@
+.men {
+  position: relative;
+  display: inline-block;
+  min-width: 26px;
+}
+.border1,
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container {
+  height: 1px;
+  width: 1.81%;
+  margin: 0 !important;
+  right: 98.19%;
+}
+.item,
+.label {
+  align-self: stretch;
+  display: flex;
+}
+.label {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-182xl) 0 0;
+  position: relative;
+}
+.item {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.women {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 47px;
+}
+.backgroundbordershadow {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  box-shadow: 0 0 0 4px #fff inset;
+  border-radius: var(--br-5xs);
+  background-color: var(--wwwmyntracom-regal-blue);
+  border: 1px solid var(--wwwmyntracom-regal-blue);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.container1 {
+  height: 1px;
+  width: 1.33%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 98.67%;
+  left: 0;
+}
+.item1,
+.label1 {
+  align-self: stretch;
+  display: flex;
+}
+.label1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-161xl) 0 0;
+  position: relative;
+}
+.item1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.boys {
+  position: relative;
+  display: inline-block;
+  min-width: 30px;
+}
+.border2,
+.container2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border2 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container2 {
+  height: 1px;
+  width: 1.72%;
+  margin: 0 !important;
+  right: 98.28%;
+}
+.item2,
+.label2 {
+  align-self: stretch;
+  display: flex;
+}
+.label2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-178xl) 0 0;
+  position: relative;
+}
+.item2 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.girls {
+  position: relative;
+  display: inline-block;
+  min-width: 29px;
+}
+.border3,
+.container3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border3 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container3 {
+  height: 1px;
+  width: 1.77%;
+  margin: 0 !important;
+  right: 98.23%;
+}
+.border,
+.item3,
+.label3,
+.list {
+  align-self: stretch;
+  display: flex;
+}
+.label3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-179xl) 0 0;
+  position: relative;
+}
+.border,
+.item3,
+.list {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item3 {
+  justify-content: center;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.border,
+.list {
+  justify-content: flex-start;
+}
+.list {
+  gap: var(--gap-6xs);
+}
+.border {
+  border-right: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  border-bottom: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  padding: var(--padding-xl) 0 var(--padding-mini) var(--padding-6xl);
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-ebony-clay);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

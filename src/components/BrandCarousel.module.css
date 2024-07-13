@@ -1,0 +1,344 @@
+.pictureIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.link,
+.wrapperPicture {
+  height: 1px;
+  display: flex;
+}
+.wrapperPicture {
+  width: 210.6px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.pictureIcon1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture1 {
+  height: 1px;
+  width: 210.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link1 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-left: -0.9px;
+}
+.pictureIcon2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture2 {
+  height: 1px;
+  width: 210.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link2 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -0.9px;
+}
+.pictureIcon3 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture3 {
+  height: 1px;
+  width: 210.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link3 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-left: -0.9px;
+}
+.pictureIcon4 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture4 {
+  height: 1px;
+  width: 210.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link4 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -0.9px;
+}
+.pictureIcon5 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture5 {
+  height: 1px;
+  width: 210.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container,
+.container1,
+.link5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.link5 {
+  height: 1px;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-left: -0.9px;
+}
+.container,
+.container1 {
+  max-width: 100%;
+}
+.container1 {
+  flex: 1;
+  justify-content: center;
+  padding: 0 var(--padding-9xs) var(--padding-256xl-3) 0;
+  box-sizing: border-box;
+  row-gap: 20px;
+}
+.container {
+  align-self: stretch;
+  justify-content: flex-start;
+  min-height: 1px;
+  flex-shrink: 0;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.75;
+  color: var(--wwwmyntracom-trout);
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container5 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+  z-index: 1;
+}
+.brandPagination,
+.container5,
+.paginationDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.paginationDots {
+  width: 80px;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.brandPagination {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.brandCarouselContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-9);
+  max-width: 100%;
+}
+.grandGlobalBrands {
+  height: 38px;
+  position: relative;
+  letter-spacing: 4.32px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.brandCarousel,
+.container6,
+.container7,
+.heading4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading4 {
+  width: 1263.3px;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-height: 144px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.brandCarousel,
+.container6,
+.container7 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.container7 {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs) var(--padding-11xl);
+  box-sizing: border-box;
+}
+.brandCarousel,
+.container6 {
+  align-items: center;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-288-upper-size);
+  color: var(--wwwmyntracom-bright-gray);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+.brandCarousel {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-50xl-4);
+  box-sizing: border-box;
+  gap: var(--gap-47xl);
+  text-align: center;
+  font-size: var(--wwwmyntracom-assistant-bold-24-size);
+  color: var(--wwwmyntracom-waterloo);
+  font-family: var(--wwwmyntracom-inter-regular-24);
+}
+@media screen and (max-width: 750px) {
+  .brandCarousel {
+    gap: var(--gap-14xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .div2,
+  .div3 {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .grandGlobalBrands {
+    font-size: var(--font-size-4xl);
+  }
+  .brandCarousel {
+    gap: var(--gap-base);
+  }
+}

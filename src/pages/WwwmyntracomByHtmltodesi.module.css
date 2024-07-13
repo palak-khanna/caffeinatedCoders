@@ -1,0 +1,622 @@
+.pictureIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 137px;
+  transform: scale(275);
+}
+.wrapperPicture {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link,
+.linkIcon,
+.linkIcon1,
+.linkIcon2,
+.linkIcon3,
+.linkIcon4 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container1 {
+  flex: 1;
+  padding: 0 0 var(--padding-255xl);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: 379.1px;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 1263.33px;
+  z-index: 4;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.75;
+  color: var(--wwwmyntracom-trout);
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.div4 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container6 {
+  flex: 1;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+}
+.breadcrumbList,
+.breadcrumbsContainer,
+.container6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.breadcrumbList {
+  width: 100px;
+  justify-content: flex-start;
+}
+.breadcrumbsContainer {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.medalWorthyBrands {
+  height: 38px;
+  position: relative;
+  letter-spacing: 4.32px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.heading4 {
+  width: 1263.3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-height: 144px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.breadcrumbsContainerParent,
+.container7,
+.container8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container8 {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs) var(--padding-11xl);
+  box-sizing: border-box;
+}
+.breadcrumbsContainerParent,
+.container7 {
+  align-items: center;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-288-upper-size);
+  color: var(--wwwmyntracom-bright-gray);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+.breadcrumbsContainerParent {
+  align-items: flex-end;
+  padding: 0 0 var(--padding-50xl-4);
+  box-sizing: border-box;
+  gap: var(--gap-47xl);
+  text-align: center;
+  font-size: var(--wwwmyntracom-assistant-bold-24-size);
+  color: var(--wwwmyntracom-waterloo);
+  font-family: var(--wwwmyntracom-inter-regular-24);
+}
+.shopByCategory {
+  height: 38px;
+  position: relative;
+  letter-spacing: 4.32px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.container10,
+.heading41 {
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.heading41 {
+  width: 1263.3px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  max-height: 144px;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.container10 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-3xs) var(--padding-11xl);
+}
+.container10,
+.container9,
+.containerWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.containerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 49.4px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-288-upper-size);
+  color: var(--wwwmyntracom-bright-gray);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+.pictureIcon1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 137px;
+  transform: scale(275);
+}
+.wrapperPicture1 {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link1,
+.linkIcon5,
+.linkIcon6,
+.linkIcon7,
+.linkIcon8,
+.linkIcon9 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container11,
+.container12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container12 {
+  flex: 1;
+  padding: 0 0 var(--padding-255xl);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+  max-width: 100%;
+}
+.container11 {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1263.33px;
+}
+.pictureIcon2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 137px;
+  transform: scale(275);
+}
+.wrapperPicture2 {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link2,
+.linkIcon10,
+.linkIcon11,
+.linkIcon12,
+.linkIcon13,
+.linkIcon14 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container13,
+.container14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container14 {
+  flex: 1;
+  padding: 0 0 var(--padding-255xl);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+  max-width: 100%;
+}
+.container13 {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1263.33px;
+  z-index: 1;
+}
+.pictureIcon3 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 137px;
+  transform: scale(275);
+}
+.wrapperPicture3 {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link3,
+.linkIcon15,
+.linkIcon16,
+.linkIcon17,
+.linkIcon18,
+.linkIcon19 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container15,
+.container16 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container16 {
+  flex: 1;
+  padding: 0 0 var(--padding-255xl);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+  max-width: 100%;
+}
+.container15 {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1263.33px;
+  z-index: 2;
+}
+.pictureIcon4 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 137px;
+  transform: scale(275);
+}
+.wrapperPicture4 {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link4,
+.linkIcon20,
+.linkIcon21,
+.linkIcon22,
+.linkIcon23,
+.linkIcon24 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container18 {
+  flex: 1;
+  flex-direction: row;
+  padding: 0 0 var(--padding-255xl);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+  max-width: 100%;
+}
+.container17,
+.container18,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container17 {
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  max-width: 1263.33px;
+  z-index: 3;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 105.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.border {
+  width: 14px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 24px;
+  right: 14px;
+  border-top: 12px solid var(--wwwmyntracom-nero);
+  border-right: 14px solid var(--wwwmyntracom-nero);
+  border-bottom: 12px solid var(--wwwmyntracom-nero);
+  box-sizing: border-box;
+}
+.background,
+.flat200Off {
+  flex-shrink: 0;
+  display: flex;
+  position: relative;
+}
+.flat200Off {
+  width: 165.6px;
+  height: 31.3px;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-90deg);
+}
+.background {
+  width: 44px;
+  height: 288px;
+  background-color: var(--wwwmyntracom-trout);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-74xl) var(--padding-9xs) var(--padding-10xl-4);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.container19 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  display: none;
+}
+.horizontalDivider {
+  width: 100%;
+  height: 1px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  background-color: var(--wwwmyntracom-nero-02);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1263.33px;
+}
+.svgIcon {
+  height: 38px;
+  width: 38px;
+  position: relative;
+}
+.backgroundshadow {
+  width: 44px;
+  height: 44px;
+  margin: 0 !important;
+  position: absolute;
+  right: 20.9px;
+  bottom: 80.7px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-81xl);
+  background-color: var(--wwwmyntracom-dodger-blue);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.wwwmyntracomByHtmltodesi {
+  width: 100%;
+  position: relative;
+  background-color: var(--wwwmyntracom-nero);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 129.7px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--wwwmyntracom-assistant-bold-24-size);
+  color: var(--wwwmyntracom-alabaster);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container12,
+  .container14,
+  .container16,
+  .container18 {
+    flex-wrap: wrap;
+    gap: var(--gap-86xl);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .breadcrumbsContainerParent {
+    gap: var(--gap-14xl);
+  }
+  .container12,
+  .container14,
+  .container16,
+  .container18 {
+    gap: var(--gap-33xl);
+  }
+  .frameParent {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .wwwmyntracomByHtmltodesi {
+    gap: var(--gap-46xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .medalWorthyBrands {
+    font-size: var(--font-size-4xl);
+  }
+  .breadcrumbsContainerParent {
+    gap: var(--gap-base);
+  }
+  .shopByCategory {
+    font-size: var(--font-size-4xl);
+  }
+  .container12,
+  .container14,
+  .container16,
+  .container18 {
+    gap: var(--gap-7xl);
+  }
+  .flat200Off {
+    font-size: var(--font-size-lgi);
+  }
+  .wwwmyntracomByHtmltodesi {
+    gap: var(--gap-13xl);
+  }
+}

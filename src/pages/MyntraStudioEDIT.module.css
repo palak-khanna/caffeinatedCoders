@@ -1,0 +1,225 @@
+.background,
+.image34Icon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.image34Icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.background {
+  height: 117px;
+  border-radius: var(--br-5xs);
+  background-color: var(--wwwmyntracom-nero);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+}
+.image10Icon,
+.image8Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image8Icon {
+  flex: 1;
+  max-height: 100%;
+}
+.image10Icon {
+  height: 333px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.image3,
+.image4,
+.image9Icon {
+  position: relative;
+  display: none;
+}
+.image9Icon {
+  align-self: stretch;
+  height: 925px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image3,
+.image4 {
+  width: 156px;
+  height: 271.5px;
+}
+.image4 {
+  height: 270.5px;
+}
+.container1 {
+  align-self: stretch;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  background-image: url(/public/image-91@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image7Icon {
+  align-self: stretch;
+  height: 370px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image11Icon {
+  height: 788px;
+}
+.image11Icon,
+.image12Icon,
+.image13Icon,
+.image14Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image12Icon {
+  height: 320px;
+  cursor: pointer;
+}
+.image13Icon,
+.image14Icon {
+  height: 855px;
+}
+.image14Icon {
+  height: 337px;
+  cursor: pointer;
+}
+.container,
+.main {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  width: 630px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-32xl) 0;
+  gap: var(--gap-5xl);
+  max-width: 630px;
+}
+.main {
+  height: 16208px;
+  background-color: var(--wwwmyntracom-nero);
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-10944xl);
+  max-width: 100%;
+}
+.gradient,
+.myntraStudioEdit,
+.section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.section {
+  flex: 1;
+  flex-direction: column;
+  min-height: 499.33px;
+  max-width: calc(100% - 261px);
+  flex-shrink: 0;
+}
+.gradient,
+.myntraStudioEdit {
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.gradient {
+  align-self: stretch;
+  height: 5217px;
+  background: radial-gradient(50% 50%at 50% 50%, #fff 100%, transparent);
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 4871px 0;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+}
+.myntraStudioEdit {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  flex-direction: column;
+  padding: 0 0 178px;
+  gap: var(--gap-mid);
+  min-height: 529.33px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+  }
+  .container,
+  .gradient,
+  .main {
+    box-sizing: border-box;
+  }
+  .main {
+    padding-bottom: var(--padding-1938xl);
+  }
+  .gradient {
+    padding-bottom: 870px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .gradient,
+  .main {
+    box-sizing: border-box;
+  }
+  .main {
+    padding-bottom: var(--padding-1253xl);
+  }
+  .gradient {
+    padding-bottom: 565px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container,
+  .section {
+    max-width: 100%;
+  }
+  .gradient {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-3xl);
+    padding-bottom: 367px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main {
+    padding-bottom: var(--padding-808xl);
+    box-sizing: border-box;
+  }
+  .gradient {
+    height: auto;
+  }
+}

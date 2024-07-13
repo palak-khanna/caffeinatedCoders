@@ -1,0 +1,407 @@
+.discountRange {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andAbove {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border,
+.container1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container1 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item,
+.label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item {
+  justify-content: flex-start;
+}
+.andAbove1 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border1,
+.container2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container2 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item1,
+.label1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label1 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item1 {
+  justify-content: flex-start;
+}
+.andAbove2 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border2,
+.container3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border2 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container3 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item2,
+.label2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label2 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item2 {
+  justify-content: flex-start;
+}
+.andAbove3 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border3,
+.container4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border3 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container4 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item3,
+.label3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label3 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item3 {
+  justify-content: flex-start;
+}
+.andAbove4 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border4,
+.container5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border4 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container5 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item4,
+.label4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label4 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item4 {
+  justify-content: flex-start;
+}
+.andAbove5 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border5,
+.container6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border5 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container6 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item5,
+.label5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label5 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item5 {
+  justify-content: flex-start;
+}
+.andAbove6 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border6,
+.container7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border6 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container7 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item6,
+.label6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label6 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item6 {
+  justify-content: flex-start;
+}
+.andAbove7 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border7,
+.container8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border7 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container8 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item7,
+.label7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label7 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item7 {
+  justify-content: flex-start;
+}
+.andAbove8 {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.border8,
+.container9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.border8 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container9 {
+  width: 0.47%;
+  height: 1px;
+  margin: 0 !important;
+  right: 99.53%;
+}
+.item8,
+.label8,
+.list,
+.verticalborder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label8 {
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 17px;
+}
+.item8,
+.list,
+.verticalborder {
+  justify-content: flex-start;
+}
+.list,
+.verticalborder {
+  gap: var(--gap-6xs);
+}
+.verticalborder {
+  border-right: 0.7px solid var(--wwwmyntracom-athens-gray1);
+  padding: var(--padding-xl) 0 0 var(--padding-6xl);
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-ebony-clay);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

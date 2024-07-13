@@ -1,0 +1,191 @@
+.price {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.backgroundborder {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.emptyPriceRange,
+.rs199To {
+  position: relative;
+  display: inline-block;
+  min-width: 112.3px;
+  flex-shrink: 0;
+}
+.emptyPriceRange {
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+  min-width: 40px;
+}
+.label,
+.priceValue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-6);
+}
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-height: 17px;
+}
+.backgroundborder1 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.emptyPriceValue,
+.rs73899To {
+  position: relative;
+}
+.emptyPriceValue {
+  display: inline-block;
+  min-width: 18px;
+}
+.emptyPriceValueWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-3);
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.label1,
+.rs73899ToRs147599Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-6);
+}
+.label1 {
+  align-self: stretch;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-height: 17px;
+}
+.backgroundborder2 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.div,
+.rs147599To {
+  position: relative;
+}
+.div {
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+  display: inline-block;
+  min-width: 18px;
+}
+.label2,
+.rs147599ToRs221299Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+}
+.label2 {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-height: 17px;
+}
+.backgroundborder3 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.div1,
+.rs221299To {
+  position: relative;
+  flex-shrink: 0;
+}
+.div1 {
+  display: inline-block;
+  min-width: 12.3px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-6);
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.rs221299ToRs294999Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-5);
+}
+.border,
+.label3,
+.priceRange {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label3 {
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-height: 17px;
+}
+.border,
+.priceRange {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.border {
+  border-right: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  border-bottom: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  padding: var(--padding-xl) 0 var(--padding-mini) var(--padding-6xl);
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-ebony-clay);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

@@ -1,0 +1,188 @@
+.d97d96df4ed586d5B10baa05faIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.picture {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.background,
+.container,
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.background {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--wwwmyntracom-electric-violet);
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 280px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: flex-start;
+}
+.ad {
+  position: relative;
+  display: inline-block;
+  min-width: 12px;
+}
+.background1 {
+  width: 15.5px;
+  border-radius: var(--br-11xs);
+  background-color: var(--wwwmyntracom-aluminium);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.emptyPlaceholder {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageIcon {
+  height: 13.2px;
+  width: 13.2px;
+  position: relative;
+  object-fit: contain;
+}
+.emptyIconPadding {
+  position: relative;
+  display: inline-block;
+  min-width: 3px;
+}
+.container3,
+.margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs-8);
+}
+.margin {
+  justify-content: center;
+  padding: var(--padding-12xs-1) var(--padding-7xs) var(--padding-12xs-1) 0;
+}
+.emptyIconMargin {
+  position: relative;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  display: inline-block;
+  min-width: 7px;
+}
+.container2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  font-size: var(--wwwmyntracom-assistant-semibold-10-upper-size);
+}
+.container2,
+.overlay,
+.productImage {
+  display: flex;
+  flex-direction: row;
+}
+.overlay {
+  border-radius: var(--br-11xs);
+  background-color: var(--wwwmyntracom-nero-80);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs-3) 0 var(--padding-8xs-4) var(--padding-10xs);
+  gap: var(--gap-9xs-4);
+  z-index: 1;
+}
+.productImage {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-3);
+  color: var(--wwwmyntracom-black);
+}
+.blackberrys,
+.pieceSingleBreastedSuits {
+  align-self: stretch;
+  position: relative;
+  text-decoration: none;
+}
+.blackberrys {
+  line-height: 16px;
+  font-weight: 700;
+  color: inherit;
+}
+.pieceSingleBreastedSuits {
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  line-height: 14px;
+  color: var(--wwwmyntracom-trout);
+}
+.productTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--wwwinstagramcom-roboto-bold-16-size);
+}
+.rs8995 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  line-height: 15px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+.productImageParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  color: var(--wwwmyntracom-ebony-clay);
+}
+.link,
+.productCard,
+.productImageParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.link {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-4xs) var(--padding-3xs) var(--padding-7xs);
+  position: relative;
+  gap: var(--gap-209xl);
+  cursor: pointer;
+}
+.productCard {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-semibold-10-upper-size);
+  color: var(--wwwmyntracom-nero);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

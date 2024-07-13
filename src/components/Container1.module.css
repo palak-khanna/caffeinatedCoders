@@ -1,0 +1,539 @@
+.imgHome {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.container3,
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.container7 {
+  overflow: hidden;
+  max-width: 45.35px;
+}
+.container6,
+.container7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container2,
+.container5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container5 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-base);
+}
+.container2 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.container1,
+.link {
+  display: flex;
+  align-items: flex-start;
+}
+.link {
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+.container1 {
+  width: 183px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  font-size: var(--wwwinstagramcom-roboto-bold-16-size);
+}
+.imgExplore {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.container10,
+.container11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.explore {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+}
+.container14 {
+  overflow: hidden;
+  max-width: 53px;
+}
+.container13,
+.container14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container12,
+.container9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container12 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-mini);
+}
+.container9 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.container8,
+.link1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container8 {
+  width: 183px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.imgNewPost {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.container16,
+.container17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.create {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+}
+.container20 {
+  overflow: hidden;
+  max-width: 45.77px;
+}
+.container19,
+.container20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container15,
+.container18 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container18 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-base);
+}
+.container15 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  cursor: pointer;
+}
+.imgMessenger {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.badge {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 7px;
+}
+.backgroundborder,
+.container25 {
+  box-sizing: border-box;
+  display: flex;
+}
+.container25 {
+  width: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-8xs);
+}
+.backgroundborder {
+  width: 100%;
+  height: 22px;
+  border-radius: var(--br-31xl);
+  background-color: var(--wwwinstagramcom-cyprus);
+  border: 2px solid var(--wwwmyntracom-nero);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-width: 18px;
+  max-width: 36px;
+}
+.container24 {
+  width: 22px;
+  margin: 0 !important;
+  position: absolute;
+  top: -7px;
+  right: -9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.container23 {
+  padding: 0;
+  position: relative;
+}
+.container22,
+.container23 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.messages {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 69px;
+}
+.container28 {
+  overflow: hidden;
+  max-width: 69.03px;
+}
+.container27,
+.container28 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container21,
+.container26 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container26 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-base);
+  font-size: var(--wwwinstagramcom-roboto-regular-15-size);
+  color: var(--wwwmyntracom-black);
+}
+.container21 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.linkDirectMessaging4Ne {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-nero);
+}
+.container29 {
+  width: 150px;
+  height: 41px;
+  position: relative;
+  display: none;
+}
+.imgNotifications {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.backgroundborder1 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--wwwinstagramcom-cyprus);
+  border: 2px solid var(--wwwmyntracom-nero);
+  box-sizing: border-box;
+}
+.container34 {
+  margin: 0 !important;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.container33 {
+  padding: 0;
+  position: relative;
+}
+.container32,
+.container33 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notifications1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 90px;
+}
+.container39 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 89.57px;
+}
+.container38 {
+  flex-direction: column;
+  max-width: 97.57px;
+}
+.container36,
+.container37,
+.container38 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container37 {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.container36 {
+  flex-direction: column;
+}
+.container31,
+.container35 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container35 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-base);
+}
+.container31 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.container30,
+.link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xl) var(--padding-11xs) 0;
+}
+.njpgIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.container42,
+.container43,
+.link4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.link4 {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--br-xs);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  position: relative;
+}
+.container42,
+.container43 {
+  justify-content: flex-start;
+}
+.profile {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+}
+.container46 {
+  overflow: hidden;
+  max-width: 45.03px;
+}
+.container45,
+.container46 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container41,
+.container44 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container44 {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs-5) 0 var(--padding-11xs-5) var(--padding-base);
+}
+.container41 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.container40,
+.link3 {
+  display: flex;
+  align-items: flex-start;
+}
+.link3 {
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+.container40 {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.backgroundChild,
+.notifications {
+  width: 220px;
+  height: 93px;
+  position: relative;
+}
+.backgroundChild {
+  width: 82px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.background,
+.container,
+.verticalborder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.background {
+  width: 265px;
+  background-color: var(--wwwmyntracom-nero);
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-xs) var(--padding-252xl);
+  gap: var(--gap-12xs-5);
+  flex-shrink: 0;
+}
+.container,
+.verticalborder {
+  flex-direction: row;
+  padding: 0;
+}
+.verticalborder {
+  height: 407px;
+  width: 209px;
+  border-right: 0.7px solid var(--wwwinstagramcom-alto);
+  flex-shrink: 0;
+}
+.container {
+  height: 383px;
+  width: 174px;
+  margin: 0 !important;
+  position: absolute;
+  top: -24.9px;
+  left: 0;
+  background-color: var(--wwwmyntracom-nero);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--wwwinstagramcom-roboto-regular-1575-size);
+  color: var(--wwwmyntracom-black);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}

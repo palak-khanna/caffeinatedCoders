@@ -1,0 +1,397 @@
+.imgIcon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  flex-shrink: 0;
+}
+.imgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.posts {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 42px;
+  flex-shrink: 0;
+}
+.tab {
+  border-top: 0.9px solid var(--wwwmyntracom-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-base-6);
+  gap: var(--gap-7xs);
+  color: var(--wwwmyntracom-black);
+}
+.imgIcon1 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.reels {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 39px;
+}
+.frameGroup,
+.tablistInner {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.tablistInner {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base-5);
+  font-size: var(--wwwinstagramcom-roboto-regular-1144-size);
+}
+.imgIcon2 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.imgFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.tagged {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+}
+.frameContainer,
+.tablistChild {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.tablistChild {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base-5);
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+}
+.tablist {
+  align-self: stretch;
+  border-top: 0.9px solid var(--wwwinstagramcom-alto);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-12xs-4) var(--padding-297xl) var(--padding-12xs-5)
+    var(--padding-296xl);
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.linkIcon,
+.linkIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkParent {
+  height: 619.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-9);
+}
+.linkIcon2,
+.linkIcon3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.gridImagesThree {
+  height: 619.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-9);
+}
+.linkIcon4,
+.linkIcon5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameDiv,
+.linkGroup,
+.tablistParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkGroup {
+  height: 619.3px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-9xs-9);
+}
+.frameDiv,
+.tablistParent {
+  align-self: stretch;
+}
+.frameDiv {
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+  grid-template-columns: repeat(3, minmax(231px, 1fr));
+}
+.tablistParent {
+  display: flex;
+  flex-direction: column;
+}
+.linkIcon6,
+.linkIcon7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkContainer {
+  height: 619.4px;
+  width: 307.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 307.7px;
+}
+.linkIcon8,
+.linkIcon9 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 200px;
+  min-height: 308px;
+}
+.profileName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.linkIcon10,
+.linkIcon11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 200px;
+  min-height: 308px;
+}
+.frameParent1,
+.profileNameParent,
+.stats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.stats {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameParent1,
+.profileNameParent {
+  max-width: 100%;
+}
+.profileNameParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 402px;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.linkIcon12,
+.linkIcon13 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.linkParent1 {
+  height: 619.4px;
+  width: 307.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 307.7px;
+}
+.linkIcon14,
+.linkIcon15 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 200px;
+  min-height: 308px;
+}
+.imageItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.backgroundIcon {
+  object-fit: cover;
+}
+.backgroundIcon,
+.linkIcon16 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 200px;
+  min-height: 308px;
+}
+.backgroundParent,
+.frameParent,
+.frameParent2,
+.imageItemParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.backgroundParent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameParent,
+.frameParent2,
+.imageItemParent {
+  max-width: 100%;
+}
+.imageItemParent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 402px;
+}
+.frameParent,
+.frameParent2 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-9xs-9);
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1163-size);
+  color: var(--wwwinstagramcom-dove-gray);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+@media screen and (max-width: 1200px) {
+  .linkContainer {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .linkParent1 {
+    flex: 1;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .tablist {
+    padding-left: var(--padding-138xl);
+    padding-right: var(--padding-139xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(231px, 400px));
+  }
+  .imageItemParent,
+  .profileNameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tablist {
+    padding-left: var(--padding-59xl);
+    padding-right: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    grid-template-columns: minmax(231px, 1fr);
+  }
+  .backgroundParent,
+  .imageItem,
+  .profileName,
+  .stats {
+    flex-wrap: wrap;
+  }
+}
