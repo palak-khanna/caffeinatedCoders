@@ -1,0 +1,111 @@
+.f6db5397005475dA5d5Bf43541Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.picture {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.background,
+.container,
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.background {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--wwwmyntracom-bright-turquoise);
+  justify-content: center;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
+.b {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b1,
+.imageIcon {
+  position: relative;
+}
+.imageIcon {
+  height: 13.2px;
+  width: 13.2px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.b1 {
+  display: inline-block;
+  min-width: 3px;
+}
+.container3,
+.margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs-8);
+}
+.margin {
+  justify-content: center;
+  padding: var(--padding-12xs-1) var(--padding-7xs) var(--padding-12xs-1) 0;
+}
+.k {
+  position: relative;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  display: inline-block;
+  min-width: 13px;
+}
+.container2,
+.overlay {
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  font-size: var(--wwwmyntracom-assistant-semibold-10-upper-size);
+}
+.overlay {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  border-radius: var(--br-11xs);
+  background-color: var(--wwwmyntracom-nero-80);
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs-3) 0 var(--padding-8xs-4) var(--padding-10xs);
+  gap: var(--gap-9xs-4);
+  z-index: 1;
+}
+.containerParent {
+  align-self: stretch;
+  height: 280px;
+  position: relative;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  color: var(--wwwmyntracom-black);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

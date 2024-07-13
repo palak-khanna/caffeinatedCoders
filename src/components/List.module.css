@@ -1,0 +1,203 @@
+.border,
+.border1 {
+  position: absolute;
+  top: 11.31px;
+  left: 5.75px;
+  border-top: 2px solid var(--wwwmyntracom-ebony-clay);
+  border-right: 2px solid var(--wwwmyntracom-ebony-clay);
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+  transform: rotate(-136deg);
+  transform-origin: 0 0;
+}
+.border1 {
+  left: 13.75px;
+  z-index: 1;
+}
+.doubleBorderContainer {
+  width: 19.3px;
+  height: 11.3px;
+  position: relative;
+}
+.pageItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.page1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 45.5px;
+}
+.item {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-7xs);
+  gap: var(--gap-6xs-4);
+  opacity: 0.6;
+}
+.border2,
+.pageItem {
+  box-sizing: border-box;
+}
+.pageItem {
+  width: 84.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.border2 {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-top: 2px solid var(--wwwmyntracom-ebony-clay);
+  border-right: 2px solid var(--wwwmyntracom-ebony-clay);
+  transform: rotate(-136deg);
+}
+.previousPageContainer {
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) var(--padding-9xs-7) 0;
+  box-sizing: border-box;
+}
+.previous {
+  position: relative;
+  font-size: var(--wwwinstagramcom-roboto-bold-16-size);
+  display: inline-block;
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+  color: var(--wwwmyntracom-ebony-clay);
+  text-align: center;
+  min-width: 62px;
+}
+.item1,
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.item1 {
+  cursor: pointer;
+  border: 1px solid var(--wwwmyntracom-iron);
+  padding: var(--padding-4xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-4xl);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  gap: var(--gap-6xs-3);
+  opacity: 0.6;
+}
+.pagination {
+  gap: var(--gap-4xs-9);
+}
+.page1Of {
+  width: 83px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 83px;
+}
+.currentPageItem,
+.item2 {
+  display: flex;
+  align-items: flex-start;
+}
+.item2 {
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-5xs);
+}
+.currentPageItem {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) var(--padding-8xs-7) 0;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-trout);
+}
+.border3,
+.next {
+  position: relative;
+}
+.next {
+  font-size: var(--wwwinstagramcom-roboto-bold-16-size);
+  display: inline-block;
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+  color: var(--wwwmyntracom-ebony-clay);
+  text-align: center;
+  min-width: 33px;
+}
+.border3 {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid var(--wwwmyntracom-ebony-clay);
+  border-right: 2px solid var(--wwwmyntracom-ebony-clay);
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+.nextPageContainer {
+  height: 15.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) var(--padding-9xs) 0;
+  box-sizing: border-box;
+}
+.item3,
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.item3 {
+  cursor: pointer;
+  border: 1px solid var(--wwwmyntracom-iron);
+  padding: var(--padding-4xs) var(--padding-3xl) var(--padding-5xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  justify-content: flex-start;
+  gap: var(--gap-7xs-6);
+}
+.list {
+  align-self: stretch;
+  border-top: 0.7px solid var(--wwwmyntracom-athens-gray1);
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: var(--padding-5xl-7) var(--padding-199xl) var(--padding-6xl)
+    var(--padding-190xl);
+  min-height: 127px;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-bold-16-size);
+  color: var(--wwwmyntracom-ebony-clay);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}
+@media screen and (max-width: 1050px) {
+  .list {
+    flex-wrap: wrap;
+    padding-left: var(--padding-85xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .list {
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,490 @@
+.color {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 43px;
+}
+.colorHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.imageIcon {
+  position: absolute;
+  top: 7.2px;
+  right: 7.2px;
+  width: 14.7px;
+  height: 14.7px;
+  object-fit: contain;
+}
+.background {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--wwwmyntracom-athens-gray);
+}
+.colorContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.backgroundborder {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.colorOptionElement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background1 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-fern);
+}
+.colorOptionBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.emptyColorName,
+.green {
+  position: relative;
+  display: inline-block;
+}
+.green {
+  flex: 1;
+  min-width: 37.7px;
+}
+.emptyColorName {
+  min-width: 34px;
+}
+.colorOption,
+.emptyColorNameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyColorNameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption {
+  width: 125.4px;
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.backgroundborder1 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.backgroundborderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background2 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-wewak);
+}
+.backgroundWrapper {
+  width: 19.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.div,
+.pink {
+  position: relative;
+  display: inline-block;
+}
+.pink {
+  flex: 1;
+  min-width: 28.9px;
+  flex-shrink: 0;
+}
+.div {
+  min-width: 33.1px;
+}
+.colorOption1,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption1 {
+  width: 115.6px;
+  flex-direction: row;
+  gap: var(--gap-9xs-6);
+}
+.backgroundborder2 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.backgroundborderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background3 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-science-blue);
+}
+.backgroundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.blue,
+.div1 {
+  position: relative;
+  display: inline-block;
+}
+.blue {
+  flex: 1;
+  min-width: 29.3px;
+  flex-shrink: 0;
+}
+.div1 {
+  min-width: 34px;
+}
+.colorOption2,
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption2 {
+  width: 117px;
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.backgroundborder3 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.backgroundborderFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background4 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-limed-spruce);
+}
+.backgroundFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.black,
+.div2 {
+  position: relative;
+  display: inline-block;
+}
+.black {
+  text-decoration: none;
+  flex: 1;
+  color: inherit;
+  min-width: 35px;
+  flex-shrink: 0;
+}
+.div2 {
+  min-width: 34px;
+}
+.colorOption3,
+.frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption3 {
+  width: 122.7px;
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.backgroundborder4 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background5 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-chestnut-rose);
+}
+.backgroundWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.div3,
+.red {
+  position: relative;
+  display: inline-block;
+  min-width: 25.5px;
+}
+.div3 {
+  min-width: 34px;
+}
+.colorOption4,
+.wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption4 {
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.backgroundborder5 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.backgroundborderWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background6 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-golden-dream);
+}
+.backgroundWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.div4,
+.yellow {
+  position: relative;
+  display: inline-block;
+}
+.yellow {
+  flex: 1;
+  min-width: 40.5px;
+}
+.div4 {
+  min-width: 34px;
+}
+.colorOption5,
+.wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption5 {
+  width: 128.2px;
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.backgroundborder6 {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--wwwmyntracom-french-gray);
+  box-sizing: border-box;
+}
+.backgroundborderWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.background7 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: var(--br-5xs-5);
+  background-color: var(--wwwmyntracom-east-bay);
+}
+.backgroundWrapper3 {
+  width: 19.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.div5,
+.navyBlue {
+  position: relative;
+  display: inline-block;
+  min-width: 61px;
+}
+.div5 {
+  min-width: 33.1px;
+}
+.colorOption6,
+.colorOptions,
+.wrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper3 {
+  flex-direction: column;
+  padding: var(--padding-10xs-6) 0 0;
+  font-size: var(--wwwinstagramcom-roboto-regular-11-size);
+  color: var(--wwwmyntracom-manatee);
+}
+.colorOption6,
+.colorOptions {
+  flex-direction: row;
+  gap: var(--gap-9xs-6);
+}
+.colorOptions {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  color: var(--wwwmyntracom-black);
+}
+.more {
+  position: relative;
+  display: inline-block;
+  min-width: 62px;
+}
+.border,
+.moreColors {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl);
+  font-size: var(--wwwinstagramcom-roboto-regular-15-size);
+  color: var(--wwwmyntracom-regal-blue);
+}
+.border {
+  align-self: stretch;
+  border-right: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  border-bottom: 0.7px solid var(--wwwmyntracom-linear-athens-gray-athens-gray);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-sm)
+    var(--padding-6xl);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-ebony-clay);
+  font-family: var(--wwwmyntracom-assistant-bold-24);
+}

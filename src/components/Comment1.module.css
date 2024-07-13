@@ -1,0 +1,321 @@
+.cjaslar,
+.link {
+  align-self: stretch;
+  flex: 1;
+}
+.cjaslar {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.link {
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-12xs-3) 0 var(--padding-12xs-4);
+}
+.container1,
+.container2,
+.heading3,
+.link {
+  display: flex;
+  justify-content: flex-start;
+}
+.container1,
+.container2 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading3 {
+  position: absolute;
+  top: -0.9px;
+  left: 50px;
+  width: 44px;
+  height: 18.7px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.link1,
+.time5h {
+  align-self: stretch;
+  display: flex;
+}
+.time5h {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  color: inherit;
+  align-items: center;
+  text-decoration: none;
+}
+.link1 {
+  width: 26px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+}
+.button1,
+.buttonReply {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  height: 16px;
+  width: 27px;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1125-size);
+}
+.buttonReply {
+  align-self: stretch;
+  width: 30px;
+}
+.container3 {
+  position: absolute;
+  top: 42.9px;
+  left: 50px;
+  width: 391.1px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 391.11px;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  color: var(--wwwinstagramcom-dove-gray);
+}
+.imageIcon,
+.njpgIcon {
+  overflow: hidden;
+  object-fit: cover;
+}
+.imageIcon {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+}
+.njpgIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  flex-shrink: 0;
+}
+.border,
+.link2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.border {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+}
+.link2 {
+  background-color: var(--wwwinstagramcom-wild-sand);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.button {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.kObrien11 {
+  width: 81px;
+  color: var(--wwwinstagramcom-midnight-blue);
+  text-decoration: none;
+  z-index: 1;
+}
+.blakelively,
+.kObrien11,
+.whenYouSee {
+  height: 18px;
+  position: relative;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+.whenYouSee {
+  flex: 1;
+  min-width: 72px;
+}
+.blakelively {
+  width: 77px;
+  color: var(--wwwinstagramcom-midnight-blue);
+  text-decoration: none;
+  z-index: 1;
+  margin-left: -0.1px;
+}
+.secondUserMention {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 122px;
+  row-gap: 20px;
+}
+.wearing {
+  height: 18px;
+  width: 53px;
+  position: relative;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.commentDescription,
+.firstUserMention {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.firstUserMention {
+  width: 322.9px;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-3);
+}
+.commentDescription {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.yourMomsDenim {
+  width: 317.2px;
+  height: 18px;
+  position: relative;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1378-size);
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.commentDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 80px);
+  flex-shrink: 0;
+}
+.imgLike {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.button2,
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container4 {
+  flex-direction: column;
+}
+.commentMedia,
+.container4,
+.margin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.margin {
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+  flex-shrink: 0;
+}
+.commentMedia {
+  position: absolute;
+  top: -0.6px;
+  left: 0;
+  width: 100%;
+  height: 21.8px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs-2);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwmyntracom-black);
+}
+.comment,
+.container {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.container {
+  height: 61px;
+  flex: 1;
+  position: relative;
+}
+.comment {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs-9);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1334-size);
+  color: var(--wwwinstagramcom-mine-shaft);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+@media screen and (max-width: 450px) {
+  .container3 {
+    max-width: 100%;
+  }
+  .blakelively {
+    margin-left: 0;
+  }
+  .firstUserMention,
+  .secondUserMention {
+    flex-wrap: wrap;
+  }
+  .commentMedia,
+  .container {
+    height: auto;
+  }
+  .container {
+    min-height: 61;
+  }
+}

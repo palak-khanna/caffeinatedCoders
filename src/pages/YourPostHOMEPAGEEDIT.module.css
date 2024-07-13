@@ -1,0 +1,1029 @@
+.imageIcon,
+.njpgIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button,
+.buttonmargin,
+.link {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button,
+.buttonmargin {
+  justify-content: flex-start;
+}
+.button {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-5xs);
+}
+.diaryofanin {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 70px;
+}
+.container1,
+.container2,
+.itemMenuitemStoryByDia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container1,
+.itemMenuitemStoryByDia {
+  align-items: flex-start;
+}
+.itemMenuitemStoryByDia {
+  width: 64px;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+}
+.imageIcon1,
+.njpgIcon1 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon1 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button1,
+.buttonmargin1,
+.link1 {
+  display: flex;
+  flex-direction: column;
+}
+.link1 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button1,
+.buttonmargin1 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.button1 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin1 {
+  align-items: center;
+  padding: var(--padding-9xs) 0 var(--padding-5xs);
+}
+.thv {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 17px;
+}
+.container3,
+.container4,
+.itemMenuitemStoryByThv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container4 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container3,
+.itemMenuitemStoryByThv {
+  align-items: flex-start;
+  padding: 0 var(--padding-mid);
+}
+.itemMenuitemStoryByThv {
+  flex: 0.875;
+  align-items: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  min-width: 42px;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+}
+.imageIcon2,
+.njpgIcon2 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon2 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button2,
+.buttonmargin2,
+.link2 {
+  display: flex;
+  flex-direction: column;
+}
+.link2 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button2,
+.buttonmargin2 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.button2 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin2 {
+  align-items: center;
+  padding: var(--padding-9xs) 0 var(--padding-5xs);
+}
+.jaina656 {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 50px;
+}
+.container5,
+.container6,
+.itemMenuitemStoryByJai {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container6 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container5,
+.itemMenuitemStoryByJai {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.itemMenuitemStoryByJai {
+  flex: 0.875;
+  align-items: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  min-width: 42px;
+  font-size: var(--wwwinstagramcom-roboto-regular-1144-size);
+}
+.imageIcon3,
+.njpgIcon3 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon3 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button3,
+.buttonmargin3,
+.link3 {
+  display: flex;
+  flex-direction: column;
+}
+.link3 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button3,
+.buttonmargin3 {
+  justify-content: flex-start;
+}
+.button3 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin3 {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-5xs);
+}
+.simpforma {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 67px;
+}
+.container7,
+.container8,
+.itemMenuitemStoryBySim {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container8 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-8xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container7,
+.itemMenuitemStoryBySim {
+  align-items: flex-start;
+}
+.itemMenuitemStoryBySim {
+  width: 64px;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--wwwinstagramcom-roboto-regular-1181-size);
+}
+.imageIcon4,
+.njpgIcon4 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon4 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button4,
+.buttonmargin4,
+.link4 {
+  display: flex;
+  flex-direction: column;
+}
+.link4 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button4,
+.buttonmargin4 {
+  justify-content: flex-start;
+}
+.button4 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin4 {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-5xs);
+}
+.agarwaljyati {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 67px;
+}
+.container10,
+.container9,
+.itemMenuitemStoryByAga {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container10 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container9,
+.itemMenuitemStoryByAga {
+  align-items: flex-start;
+}
+.itemMenuitemStoryByAga {
+  align-items: center;
+  padding: 0;
+}
+.imageIcon5,
+.njpgIcon5 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon5 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button5,
+.buttonmargin5,
+.link5 {
+  display: flex;
+  flex-direction: column;
+}
+.link5 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button5,
+.buttonmargin5 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.button5 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin5 {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-10xs) var(--padding-5xs);
+}
+.mtskull01 {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 58px;
+}
+.container11,
+.container12,
+.itemMenuitemStoryByMts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container12 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container11,
+.itemMenuitemStoryByMts {
+  align-items: flex-start;
+}
+.itemMenuitemStoryByMts {
+  flex: 0.9688;
+  align-items: center;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  min-width: 42px;
+}
+.imageIcon6,
+.njpgIcon6 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon6 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button6,
+.buttonmargin6,
+.link6 {
+  display: flex;
+  flex-direction: column;
+}
+.link6 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button6,
+.buttonmargin6 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.button6 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin6 {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-5xs);
+}
+.hazirjawabi {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 60px;
+}
+.container13,
+.container14,
+.itemMenuitemStoryByHaz {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container14 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container13,
+.itemMenuitemStoryByHaz {
+  align-items: flex-start;
+}
+.itemMenuitemStoryByHaz {
+  flex: 1;
+  align-items: center;
+  min-width: 42px;
+}
+.imageIcon7,
+.njpgIcon7 {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon7 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon7 {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.border7 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button7,
+.buttonmargin7,
+.link7 {
+  display: flex;
+  flex-direction: column;
+}
+.link7 {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--br-9xl);
+  background-color: var(--wwwinstagramcom-alabaster);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.button7,
+.buttonmargin7 {
+  justify-content: flex-start;
+}
+.button7 {
+  align-items: flex-start;
+  padding: 0;
+  position: relative;
+}
+.buttonmargin7 {
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-5xs);
+}
+.shwetasing {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 69px;
+}
+.container15,
+.container16,
+.itemMenuitemStoryByShw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container16 {
+  overflow: hidden;
+  align-items: center;
+  padding: 0 var(--padding-10xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 74px;
+}
+.container15,
+.itemMenuitemStoryByShw {
+  align-items: flex-start;
+}
+.itemMenuitemStoryByShw {
+  width: 64px;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+.storyContainer,
+.storyContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.storyContainer {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.storyContainerWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.image31Icon {
+  height: 890px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image31Icon,
+.image32Icon,
+.jissooInSingapore {
+  align-self: stretch;
+  position: relative;
+}
+.jissooInSingapore {
+  margin: 0;
+  font-size: inherit;
+  line-height: 29.6px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.image32Icon {
+  height: 313px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.imageCaption {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-24-size);
+}
+.background,
+.image10Icon,
+.image8Icon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+}
+.background {
+  border-radius: var(--br-5xs);
+  background-color: var(--wwwmyntracom-nero);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-28xl);
+}
+.image10Icon,
+.image8Icon {
+  height: 941px;
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image10Icon {
+  height: 333px;
+  cursor: pointer;
+}
+.image11Icon {
+  height: 788px;
+}
+.image11Icon,
+.image12Icon,
+.image13Icon,
+.image14Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image12Icon {
+  height: 320px;
+  cursor: pointer;
+}
+.image13Icon,
+.image14Icon {
+  height: 855px;
+}
+.image14Icon {
+  height: 337px;
+  cursor: pointer;
+}
+.container {
+  width: 630px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 98px;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 630px;
+}
+.container,
+.main,
+.section {
+  display: flex;
+  align-items: flex-start;
+}
+.main {
+  align-self: stretch;
+  background-color: var(--wwwmyntracom-nero);
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-10944xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section {
+  margin-bottom: -16019px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 499.33px;
+  flex-shrink: 0;
+  max-width: calc(100% - 261px);
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1163-size);
+  color: var(--wwwmyntracom-black);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+.image26 {
+  height: 68px;
+  width: 296px;
+  position: relative;
+  display: none;
+}
+.gradient,
+.yourPostHomePageEdit {
+  overflow-y: auto;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.gradient {
+  align-self: stretch;
+  height: 5202px;
+  background: radial-gradient(50% 50%at 50% 50%, #fff 100%, transparent);
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 4856px;
+  gap: var(--gap-33xl);
+  max-width: 100%;
+  margin-top: -12px;
+}
+.yourPostHomePageEdit {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-28xl);
+  min-height: 529.33px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .background,
+  .container {
+    padding-top: var(--padding-13xl);
+  }
+  .background {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container {
+    padding-bottom: var(--padding-8xl);
+  }
+  .container,
+  .gradient,
+  .main {
+    box-sizing: border-box;
+  }
+  .main {
+    padding-bottom: var(--padding-1938xl);
+  }
+  .gradient {
+    padding-bottom: 866px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .gradient,
+  .main {
+    box-sizing: border-box;
+  }
+  .main {
+    padding-bottom: var(--padding-1253xl);
+  }
+  .gradient {
+    padding-bottom: 563px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .storyContainer {
+    flex-wrap: wrap;
+  }
+  .background {
+    gap: 23px;
+  }
+  .container {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container,
+  .section {
+    max-width: 100%;
+  }
+  .gradient {
+    height: auto;
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: 366px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .itemMenuitemStoryByJai,
+  .itemMenuitemStoryByMts,
+  .itemMenuitemStoryByThv {
+    flex: 1;
+  }
+  .jissooInSingapore {
+    font-size: var(--font-size-lgi);
+  }
+  .main {
+    padding-bottom: var(--padding-808xl);
+    box-sizing: border-box;
+  }
+}

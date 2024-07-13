@@ -1,0 +1,65 @@
+.bodyPaints,
+.image27Icon {
+  position: relative;
+  max-width: 100%;
+}
+.bodyPaints {
+  width: 1261.4px;
+  height: 1071.8px;
+  background-color: var(--wwwmyntracom-nero);
+  flex-shrink: 0;
+  display: none;
+}
+.image27Icon {
+  width: 752px;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.explorePost1,
+.explorePost11 {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.explorePost11 {
+  width: 1261px;
+  background-color: var(--wwwmyntracom-nero);
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: 0 var(--padding-229xl) var(--padding-10xs) var(--padding-7xs);
+  gap: 8.2px;
+  max-width: 100%;
+}
+.explorePost1 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-77xl);
+  gap: var(--gap-11xl);
+  min-height: 529.33px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .explorePost11 {
+    padding-right: 124px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .explorePost11 {
+    padding-right: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explorePost11 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

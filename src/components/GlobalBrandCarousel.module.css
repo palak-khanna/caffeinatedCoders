@@ -1,0 +1,132 @@
+.pictureIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 105px;
+  top: 138px;
+  transform: scale(276.3);
+}
+.wrapperPicture {
+  height: 1px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link,
+.linkIcon,
+.linkIcon1,
+.linkIcon2,
+.linkIcon3,
+.linkIcon4 {
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container1 {
+  flex: 1;
+  padding: 0 0 var(--padding-256xl-3);
+  box-sizing: border-box;
+  gap: var(--gap-190xl-6);
+}
+.container {
+  align-self: stretch;
+  min-height: 1px;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.75;
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.container3,
+.globalPaginationDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container3 {
+  flex: 1;
+  padding: 0 var(--padding-10xs);
+  opacity: 0.25;
+  z-index: 1;
+  color: var(--wwwmyntracom-waterloo);
+}
+.globalPaginationDots {
+  width: 40px;
+}
+.globalBrandCarousel,
+.globalBrandPagination {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.globalBrandCarousel {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-47xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xs-9);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--wwwmyntracom-assistant-bold-24-size);
+  color: var(--wwwmyntracom-trout);
+  font-family: var(--wwwmyntracom-inter-regular-24);
+}
+@media screen and (max-width: 1050px) {
+  .container1 {
+    flex-wrap: wrap;
+    gap: var(--gap-86xl);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .container1 {
+    gap: var(--gap-7xl);
+  }
+  .div,
+  .div1 {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .globalBrandCarousel {
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}

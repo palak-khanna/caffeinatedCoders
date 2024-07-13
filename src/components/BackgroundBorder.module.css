@@ -1,0 +1,223 @@
+.imageIcon,
+.njpgIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -5px;
+  left: -5px;
+}
+.njpgIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  border: 1px solid var(--wwwinstagramcom-black-98);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button,
+.link {
+  position: relative;
+}
+.link {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--br-base);
+  background-color: var(--wwwinstagramcom-wild-sand);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.button {
+  padding: 0;
+}
+.button,
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ethnicLover {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 77px;
+}
+.container7,
+.container8,
+.link1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link1 {
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs-6);
+}
+.container7,
+.container8 {
+  flex-direction: column;
+}
+.container7 {
+  max-width: 82.47px;
+}
+.imgVerified {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.margin1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.container5,
+.container6,
+.margin1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+.container5 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs-4) var(--padding-11xs) var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 86.47px;
+}
+.container3,
+.container4 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container4 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: var(--padding-12xs) 0 0;
+}
+.container3 {
+  width: 86.5px;
+  max-width: 385.11px;
+}
+.container2,
+.container3,
+.header,
+.margin {
+  display: flex;
+  justify-content: flex-start;
+}
+.container2 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.header,
+.margin {
+  box-sizing: border-box;
+}
+.margin {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-sm);
+  max-width: 100%;
+}
+.header {
+  width: 451.1px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-9xs) var(--padding-sm)
+    var(--padding-base);
+  max-width: 451.11px;
+}
+.imgMoreOptions {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.button1,
+.container9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.container9 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.backgroundborder,
+.container {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  gap: var(--gap-0);
+}
+.backgroundborder {
+  border-radius: var(--br-9xs);
+  background-color: var(--wwwmyntracom-nero);
+  border-bottom: 0.9px solid var(--wwwinstagramcom-gallery);
+  border-left: 0.9px solid var(--wwwinstagramcom-gallery);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+  color: var(--wwwinstagramcom-mine-shaft);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+@media screen and (max-width: 750px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container3,
+  .header {
+    max-width: 100%;
+  }
+}

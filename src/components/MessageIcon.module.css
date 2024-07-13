@@ -1,0 +1,156 @@
+.time16 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  letter-spacing: 0.18px;
+  line-height: 16px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.container2,
+.link {
+  display: flex;
+  align-items: flex-start;
+}
+.container2 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 72px;
+}
+.link {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+.container,
+.container1,
+.margin {
+  display: flex;
+  justify-content: flex-start;
+}
+.container1 {
+  width: 72px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container,
+.margin {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.margin {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-smi) var(--padding-base);
+  flex-shrink: 0;
+}
+.imgEmoji {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.exploreLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.addAComment {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 109px;
+}
+.textareaAddAComment {
+  width: 100%;
+  height: 18px;
+  background-color: var(--wwwmyntracom-nero);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-6);
+  box-sizing: border-box;
+  max-width: 483.11px;
+  max-height: 80px;
+}
+.exploreLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 254px;
+  max-width: 100%;
+}
+.post {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 28px;
+}
+.button,
+.newPostButton {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-12xs-3) 0 var(--padding-12xs-4);
+}
+.newPostButton {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-6);
+  text-align: center;
+  font-size: var(--wwwinstagramcom-roboto-semibold-1323-size);
+  color: var(--color-lightsteelblue);
+}
+.messageIcon,
+.section {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.section {
+  border-top: 0.9px solid var(--wwwinstagramcom-alto);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: -16px;
+  font-size: var(--wwwmyntracom-assistant-regular-14-size);
+}
+.messageIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--wwwmyntracom-assistant-bold-12-size);
+  color: var(--wwwinstagramcom-dove-gray);
+  font-family: var(--wwwinstagramcom-roboto-regular-1575);
+}
+@media screen and (max-width: 750px) {
+  .textareaAddAComment {
+    max-width: 100%;
+  }
+  .section {
+    flex-wrap: wrap;
+  }
+}
